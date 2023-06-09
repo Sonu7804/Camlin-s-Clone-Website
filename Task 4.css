@@ -1,0 +1,652 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    
+    
+}
+#camel img{
+    width: 4%;
+    height: 4%;
+    background-size: 10%;
+    margin-left: 8%;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 2s;
+    
+}
+#nav-left{
+    margin-left: 75px;
+    text-align: center;
+}
+#nav-left h2{
+    margin-left: -100%;
+    margin-top: -2%;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 15px;
+    color: rgb(5, 0, 0);
+}
+#nav-left hr{
+    margin-right: 4%;
+    margin-left: -1.6%;
+}
+#nav-left p{
+    color: rgb(59, 59, 59);
+}
+#Links hr{
+    margin-right: 4%;
+    margin-left: 3.5%;
+    margin-top: 2%;
+}
+#nav-right{
+    margin-left: 86%;
+    margin-top: -2.8%;
+    
+}
+#nav-right button{
+    background-color: red;
+    border-radius: 6px;
+    padding: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+#nav-right a{
+    text-decoration: none;
+}
+
+#Links{
+    font-size: 16px;
+    text-align: center;
+    word-spacing: 20px;
+    margin-top: -3%;    
+    
+}
+#Links a:hover{
+    background-color: rgb(207, 204, 204);
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: bold;
+    color: blue;
+    margin: 6px;
+    transition: 2s;
+
+}
+a{
+    color: black;
+}
+
+#first-div a{
+    text-decoration: none;
+}
+#Links i{
+    margin-left: 90px;
+    color: rgb(6, 6, 6);   
+}
+.heading h1{
+    margin: 10%;
+    margin-top:6%;
+    text-align: center;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    color: black;
+    
+}
+#hand1{
+    margin-top: -28%;
+    margin-left: -6px; 
+    transition: 2s; 
+}
+#hand2{
+    margin-top: -46%;
+    margin-left: 65%;
+    transition: 3s;
+  
+}
+#box1{
+    margin-top: -23%;
+    margin-left: -2%;
+    width: 350px;
+    height: 500px;
+    background-color:rgb(88, 88, 247);
+    border-radius: 18% 82% 76% 24% / 52% 52% 48% 48% ;
+    
+
+
+}
+#box2{
+    margin-top: -40%;
+    margin-left: 85%;
+    width: 350px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 76% 24% 13% 87% / 44% 52% 48% 56%   ;
+    
+}
+.heading h2{
+      margin-left: 3.3%;
+      margin-top:-4%;
+      color:rgb(199, 19, 19);
+      cursor: pointer;
+      transition: 3s;
+}
+.roundButton{
+    font-size: 15px;
+    margin-left: 43%;
+    background-color: rgb(226, 86, 35);
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    width: 13%;
+    word-spacing: 10px;
+    transition: 2s;
+  
+}
+#nav-top{
+    text-align: center;
+    margin-top: -20px;
+}
+
+nav li{
+    display: inline;
+    float: left;
+    margin: 10px;
+    margin-left: 45px;
+    margin-top: 40px;
+  
+
+} 
+#nav-top li{
+    text-align: center;
+}
+nav-top h4{
+    margin-left: 10%;
+}
+
+#nav-top h5{
+    margin-left: 87%;
+    font-size: 15px;
+    margin-top: -58px;
+}
+#nav-top button{
+    position: absolute;
+    margin-top: -45px;
+    border-radius: 8px;
+    color: #fff;
+    background-color: red;
+    font-size: 15px;
+    font-family: cursive;
+    margin-left: 90%;
+   
+} 
+
+
+#nav-top hr{
+    margin-left: -5%;
+    margin-right: 5%;
+}
+.card1{
+    position: absolute;
+    margin: 35px;
+    margin-top: 3%;
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    background-color: rgb(247, 247, 248);
+    border: 1px solid black; 
+      
+}
+.img1-div img{
+  position: absolute;
+  left: 18px;
+  width: 60%;
+  height: 360px;
+  transition: 3s;
+}
+.card1 h1{
+    position: relative;
+    padding-left: 63%;
+    padding-top: 55%;
+    color:black;
+    margin: 20px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card2{
+    position: relative;
+    margin: 540px;
+    margin-top: 8%; 
+    width: 420px;
+    height: 560px;
+    background-color: rgb(255, 106, 0);  
+}
+.img2-div img{
+  position: absolute;
+  left: 18px;
+  width: 86%;
+  left: 20px;
+  height: 465px;
+  margin: 10px;
+}
+.card2 h1{
+    color: white;
+    margin: 20px; 
+    position: absolute;
+    padding-top: 110%;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card3{
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    background-color: rgb(247, 247, 248); 
+    border: 1px solid black; 
+    margin-left: 67%; 
+    margin-top: -65%; 
+}
+.img3-div img{
+  position: absolute;
+  left: 18px;
+  width: 60%;
+  height: 360px;
+}
+.card3 h1{
+    position: relative;
+    padding-left: 63%;
+    padding-top: 55%;
+    color:black;
+    margin: 20px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card4{
+    position: relative;
+    margin: 30px;
+    
+    width: 430px;
+    height: 560px;
+    background-color:rgb(98, 60, 249); 
+    margin-top: -41%; 
+}
+.img4-div img{
+  position: absolute;
+  left: 18px;
+  width: 86%;
+  left: 20px;
+  height: 465px;
+  margin: 10px;
+}
+.card4 h1{
+    color: white;
+    margin: 20px; 
+    position: absolute;
+    padding-top: 105%;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card5{
+    position: absolute;
+    margin: 540px;
+    margin-top: -31.5%;
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    background-color: rgb(247, 247, 248);
+    border: 1px solid black;   
+}
+.img5-div img{
+  position: absolute;
+  left: 18px;
+  width: 60%;
+  height: 360px;
+}
+.card5 h1{
+    position: relative;
+    padding-left: 63%;
+    padding-top: 55%;
+    color:black;
+    margin: 20px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card6{
+    position: relative;
+    margin: 1027px;
+    margin-top: -35%;
+    padding: 10px; 
+    width: 420px;
+    height: 560px;
+    background-color: rgb(254, 250, 26);  
+}
+.img6-div img{
+  position: absolute;
+  left: 18px;
+  width: 86%;
+  left: 20px;
+  height: 465px;
+  margin: 10px;
+}
+.card6 h1{
+    color: rgb(4, 4, 4);
+    margin: 20px; 
+    position: absolute;
+    padding-top: 110%;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card7{
+    position: absolute;
+    margin: 34px;
+    margin-top: -69.5%;
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    background-color: rgb(247, 247, 248);
+    border: 1px solid black;   
+}
+.img7-div img{
+  position: absolute;
+  left: 18px;
+  width: 60%;
+  height: 360px;
+}
+.card7 h1{
+    position: relative;
+    padding-left: 63%;
+    padding-top: 60%;
+    color:black;
+    margin: 20px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+
+.card8{
+    position: relative;
+    margin: 540px;
+    margin-top: -73%;
+    padding: 10px; 
+    width: 420px;
+    height: 560px;
+    background-color: rgb(46, 245, 172);  
+}
+.img8-div img{
+  position: absolute;
+  left: 18px;
+  width: 86%;
+  left: 20px;
+  height: 465px;
+  margin: 10px;
+}
+.card8 h1{
+    color: white;
+    margin: 20px; 
+    position: absolute;
+    padding-top: 110%;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card9{
+    position: absolute;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    background-color: rgb(247, 247, 248); 
+    border: 1px solid black; 
+    margin-left: 67%; 
+    margin-top: -65%; 
+}
+.img9-div img{
+  position: absolute;
+  left: 18px;
+  width: 60%;
+  height: 360px;
+}
+.card9 h1{
+    position: relative;
+    padding-left: 63%;
+    padding-top: 60%;
+    color:black;
+    margin: 22px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.card10{
+    position: relative;
+    margin: 30px;
+    padding: 10px; 
+    width: 430px;
+    height: 560px;
+    background-color:rgb(201, 94, 94); 
+    margin-top: -41.5%; 
+}
+.img10-div img{
+  position: absolute;
+  left: 18px;
+  width: 86%;
+  left: 20px;
+  height: 470px;
+  margin: 10px;
+}
+.card10 h1{
+    color: white;
+    margin: 20px; 
+    position: absolute;
+    padding-top: 108%;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+.card11{
+    position: absolute;
+    margin: 540px;
+    margin-top: -31.5%;
+    padding: 20px;
+    width: 400px;
+    height: 360px;
+    background-color: rgb(247, 247, 248);
+    border: 1px solid black;   
+}
+.img11-div img{
+  position: absolute;
+  left: 18px;
+  width: 60%;
+  height: 360px;
+  
+}
+.card11 h1{
+    position: relative;
+    padding-left: 63%;
+    padding-top: 55%;
+    color:black;
+    margin: 20px;
+    font-size: 25px;
+    font-family: monospace;
+}
+#hr hr{
+    margin-top: 8%;
+    margin-left: 2.5%;
+    margin-right: 4%;
+}
+#middle-div h1{
+   margin-left: 55%;
+   font-family: sans-serif;
+   font-weight: lighter;
+   margin-top: -20%;
+   font-size: 3.5rem;
+   color: black;
+}
+#mid-left img{
+    margin-left: 5%;
+    margin-top: 10%;
+    transform: rotate(-25deg);
+}
+#mid-right img{
+    margin-left: 88%;
+    margin-top: -90%;
+    transform: rotate(20deg);
+   
+}
+#middle-div p{
+    margin-left: 55%;
+    font-size: 20px;
+    color: black;
+}
+#mid-button button{
+    margin: 2%;
+    padding: 15px;
+    margin-left: 55%;
+    font-size: 15px;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+#mid-button button:hover{
+    background-color: rgb(95, 213, 253);
+    color: rgb(0, 47, 255);
+    font-weight: bold;
+
+}
+#hr1{
+    margin-left: 2.5%;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+#middle-div h4{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#hr2{
+    margin-left: 2.5%;
+    margin-right: 4%;
+}
+.container{
+    background-color:black;
+    color: white;
+}
+.container h1{
+    font-size: 4.5rem;
+    font-family: sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+    margin-top: 3%;
+}
+.container h5{
+        color: gray;  
+        margin: 10px;
+        padding-top: -20%;
+        font-size: 18px;
+        font-family: sans-serif;
+        font-weight: lighter;
+        cursor: pointer;
+}
+.container button{
+    margin-left: 80%;
+    padding: 15px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.container hr{
+    margin-top: -2%;
+}
+
+.container1{
+    max-width: 1600px;
+    background-color: black;
+    margin: 0 ;
+    padding: 0 3rem;
+
+}
+footer .footer-cols1{
+       display: grid;
+       grid-gap: 20px;
+       grid-template-columns: repeat(6,1fr);
+       padding: 2rem;
+       font-size: 15px;
+       color: #fff;
+       
+}
+footer .footer-cols1 ul{
+    list-style: none;
+    cursor: pointer;
+    
+}
+footer .footer-cols1 ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+
+}
+
+ footer .footer-cols1 a{
+    text-decoration: none;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container2{
+    max-width: 1550px;
+    background-color: black;
+    margin: 0 ;
+    padding: 0 3rem;
+
+}
+footer .footer-cols2{
+       display: grid;
+       grid-gap: 20px;
+       grid-template-columns: repeat(6,1fr);
+       padding: 2rem;
+       font-size: 15px;
+       color: #fff;
+       
+}
+footer .footer-cols2 ul{
+    list-style: none;
+    cursor: pointer;
+    
+}
+footer .footer-cols2 ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+
+}footer .footer-cols2 a{
+    text-decoration: none;
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    margin: 35px;
+    margin-top: 3px;
+    color: white;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: #dadada;
+    margin: 35px;
+
+}
